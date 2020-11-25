@@ -21,16 +21,16 @@
 
 **Dado** que estou na página de consulta de moedas <br>
 **Quando** consulto todas as moedas cadastradas <br>
-**Então** é listado todas os id's e nomenclaturas das moedas cadastradas <br>
+**Então** é listado a quantidade de id's cadastrados <br>
 
 **Cenário 2 - Listar moeda através do ID cadastrado**
 
 **Dado** que estou na página de consulta de moedas<br>
 **Quando** consulto uma moeda através do seu ID (correto)<br>
-**Então** é listado a informação da moeda<br>
+**Então** é listado a informação da origem da moeda <br>
 
 **Cenário 3 - Listar moeda através do ID que não esteja dentro do array ou não existente**
 
 **Dado** que estou na página de consulta de moedas<br>
 **Quando** consulto uma moeda através do seu ID (inexistente)<br>
-**Então** exiba a mensagem de erro<br>
+**Então** exiba a mensagem de erro <br>
